@@ -16,9 +16,9 @@ jobs:
           npx prettier --check .
 
   validate-entry:
-    name: Validate entries
+    name: arminaa
     uses: ./.github/workflows/validate-entry.yml
 
   check-file-changes:
-    name: Check file changes
+    name: arminaa
     uses: ./.github/workflows/check-file-changes.yml
